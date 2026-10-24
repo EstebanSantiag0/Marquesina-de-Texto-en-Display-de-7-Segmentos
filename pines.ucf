@@ -1,0 +1,20 @@
+#Reloj
+NET "clk" LOC = "B8";
+#Control
+NET "direction" LOC = "R17";
+NET "hold" LOC = "N17";
+NET "clr" LOC = "L13";
+#Displays
+NET "a" LOC = "L18";
+NET "b" LOC = "F18";
+NET "c" LOC = "D17";
+NET "d" LOC = "D16";
+NET "e" LOC = "G14";
+NET "f" LOC = "J17";
+NET "g" LOC = "H14";
+NET "dp" LOC = "C17";
+#Control de displays
+NET "slct0" LOC = "F17";
+NET "slct1" LOC = "H17";
+NET "slct2" LOC = "C18";
+NET "slct3" LOC = "F15";
