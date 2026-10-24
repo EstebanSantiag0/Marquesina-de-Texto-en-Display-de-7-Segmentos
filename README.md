@@ -21,6 +21,7 @@ VINCERE SCIS. VINCERE POSSIS.
 - [Estructura del repositorio](#estructura-del-repositorio)
 - [Cómo compilar y programar](#cómo-compilar-y-programar)
 - [Notas y consideraciones](#notas-y-consideraciones)
+- [Autoría](#autoría)
 
 ## Descripción general
 
@@ -167,3 +168,7 @@ El proyecto compila desde un clon limpio del repositorio (verificado con ISE 14.
 - El `clr` es **síncrono** al reloj lento (~0.75 Hz), por lo que hay que mantener el switch en 1 alrededor de un segundo para que tenga efecto.
 - Los `.xco` de las ROM apuntan a los `.coe` con una ruta absoluta. Si regeneras los cores en otra computadora, vuelve a seleccionar `text*.coe` en CORE Generator.
 - `DIV.v` es la netlist que ISE generó a partir del esquemático del divisor (versión con salidas `D17`/`D18`). El `.sch` de esa versión ya no existe, pero la netlist es funcionalmente idéntica y permite compilar el proyecto sin depender de la carpeta de la Práctica 1.
+
+## Autoría
+
+El diseño, los esquemáticos y el código de esta práctica son obra de **Esteban Santiago**. La documentación (este README) se redactó con ayuda de Claude (IA).
